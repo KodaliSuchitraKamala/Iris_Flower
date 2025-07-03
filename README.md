@@ -1,48 +1,60 @@
-# 🌸 Iris Flower Classification using Machine Learning
+# 🌸 Iris Flower Classification Project
 
-This project implements a **machine learning classifier** to predict the species of the Iris flower using its morphological features — sepal length, sepal width, petal length, and petal width.
+![Iris Dataset](https://upload.wikimedia.org/wikipedia/commons/5/56/Iris_dataset_scatterplot.svg)
 
-> 🌱 Built with Python and Scikit-learn  
-> 📊 Dataset: Iris dataset (from UCI Machine Learning Repository or sklearn)
+## 🔍 Overview
 
----
+This project implements a simple **Iris Flower Classification** model using supervised machine learning algorithms. The Iris dataset, one of the most well-known datasets in the data science community, contains measurements of three iris flower species (Setosa, Versicolor, and Virginica). The goal is to classify flowers based on four features:
 
-## 📁 Project Structure
+- Sepal length
+- Sepal width
+- Petal length
+- Petal width
 
-Iris_Flower/
-│
-├── iris_dataset.csv # (Optional) Dataset file
-├── iris_model.pkl # Trained model saved using joblib
-├── Iris_Flower_Classification.ipynb # Jupyter notebook with code
-├── README.md # Project documentation
-
+This project helps beginners get hands-on experience with data analysis, visualization, model building, and evaluation using Python.
 
 ---
 
-## 📚 Dataset Description
+## ✅ Features
 
-The Iris dataset contains **150 samples** of iris flowers from three different species:
-
-- **Setosa**
-- **Versicolor**
-- **Virginica**
-
-Each sample has the following features:
-
-| Feature        | Description             |
-|----------------|-------------------------|
-| sepal length   | Sepal length in cm      |
-| sepal width    | Sepal width in cm       |
-| petal length   | Petal length in cm      |
-| petal width    | Petal width in cm       |
+- Load and explore the Iris dataset
+- Data visualization using Matplotlib and Seaborn
+- Train multiple classifiers (e.g., Logistic Regression, SVM, KNN)
+- Evaluate models using accuracy, confusion matrix, and classification report
+- Save and load trained models using `joblib` or `pickle`
 
 ---
 
-## 🚀 Getting Started
+## 🗃️ Dataset Information
 
-### 🔧 Prerequisites
+- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris)
+- **Features**:
+  - Sepal Length (cm)
+  - Sepal Width (cm)
+  - Petal Length (cm)
+  - Petal Width (cm)
+- **Target Classes**:
+  - Setosa (0)
+  - Versicolor (1)
+  - Virginica (2)
 
-Install the required libraries using:
+---
+
+## 🧠 Algorithms Used
+
+- Logistic Regression
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Decision Tree (optional)
+- Random Forest (optional)
+
+---
+
+## 🛠️ Installation
+
+Clone the repository and install dependencies:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn joblib
+git clone https://github.com/KodaliSuchitraKamala/Iris_Flower.git
+cd Iris_Flower
+pip install -r requirements.txt
